@@ -11,9 +11,9 @@ The SONAR project ends soon and the system is getting closer and closer to going
 
 ### Autumn tests
 
-This autumn, 18 Swiss Higher Education Institution have been testing (and some of them still are) SONAR on the [public demo site](https://sonar.test.rero.ch/). These consist mainly of universities of applied sciences (HES/FH) and schools of education (HEP/PH).
+This autumn, 18 Swiss Higher Education Institutions have been testing (and some of them still are) SONAR on the [public demo site](https://sonar.test.rero.ch/). These consist mainly of universities of applied sciences (HES/FH) and universities of teacher education (HEP/PH).
 
-We received some very useful feedback and could already correct bugs and undertake enhancements. Other improvements in the "waiting queue" are documented in our public available [Github kanban](https://github.com/orgs/rero/projects/4).
+We received some very useful feedback which led to enhancements and bug corrections. Other improvements are in the "waiting queue", documented in our publicly available [GitHub kanban](https://github.com/orgs/rero/projects/4).
 
 In the meantime, we have also been working on the implementation of missing functionalities. A new version has been published on the [public test portal](https://sonar.test.rero.ch/) by the end of November.
 
@@ -25,7 +25,7 @@ In the meantime, we have also been working on the implementation of missing func
 
 This protocol is a *must* in the small world of institutional repositories, as it enables to harvest the metadata in order to reference it in another search portal. The most common use case is probably to integrate an institutional repository into the institution's library discovery tool.
 
-In SONAR, one set is automatically generated for each member institution. The export format is currently Dublin Core and its 10 base elements. We tried to stay as close as possible to the [OpenAIRE guidelines, v3](https://guidelines.readthedocs.io/en/latest/literature/application_profile.html). We are already thinking about adding other more granular export formats.
+In SONAR, one set is automatically generated for each member institution. The export format is currently Dublin Core and its 10 base elements. We tried to stay as close as possible to the [OpenAIRE guidelines, v3](https://guidelines.readthedocs.io/en/latest/literature/application_profile.html). We are already considering the addition of other more granular export formats.
 
 To have a look, try to add `/oai2d?verb=ListRecords&metadataPrefix=oai_dc` to the base URL of the public test portal: [link to try!](https://sonar.test.rero.ch/oai2d?verb=ListRecords&metadataPrefix=oai_dc)
 
@@ -37,7 +37,7 @@ It is now possible to specify a licence, from a closed list that was intentional
 
 **3. File management**
 
-Until now, it was possible to deposit a main file and to attach additional annexes. From now, a manager can see the file list and modify for each file its position, its displayed label and its access rights. The latter can be defined precisely between open access, embargo, restricted access. It is also possible to enable access only from the organisation's IP addresses.
+Until now, it was possible to deposit a main file and to attach additional annexes. From now on, a manager can see the list of files and, for each one, modify its position, displayed label and access rights. The latter can be one of *open access*, *under embargo*, or *restricted access*. It is also possible to enable access only from the organisation's IP addresses.
 
 **4. Support of all file formats**
 
@@ -52,4 +52,4 @@ We could already correct some small things pointed out by the test institutions,
 
 ### Next to come
 
-The integration of **project and funding information** in the document metadata is under development. This will enable to navigate in the SONAR interface between documents through research projects.
+The integration of **research project and funding information** in the document's metadata is under development. This will enable to navigate in the SONAR interface between documents through research projects.
