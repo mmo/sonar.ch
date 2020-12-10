@@ -41,7 +41,7 @@ Until now, it was possible to deposit a main file and to attach additional annex
 
 **4. Support of all file formats**
 
-SONAR is now able to receive any kind of file formats. A preview is available for PDF and some images formats. The other file types must be downloaded to be visualised.
+SONAR is now able to receive any file formats. A preview is available for PDF and some image formats. The other file types must be downloaded to be visualised.
 
 ### Small corrections
 
